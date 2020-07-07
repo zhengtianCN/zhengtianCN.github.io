@@ -1,0 +1,307 @@
+﻿<!doctype html>
+<!--
+  -  Kevin Design User Interface 
+  -  [KDUI] http://www.kaiwen.design/
+  -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>叶楠衫YNS服务器</title>
+	<link href="static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="static/css/swiper.min.css" rel="stylesheet">
+	<link href="static/css/kdui.css" rel="stylesheet">
+        <link rel="shortcut icon" href="http://www.yns.motstudio.top/favicon.ico" />
+</head>
+
+<body>
+	    <img src="static/img/star.svg" width="20px" class="star">
+      <polygon points="100,0 160,180 10,60 190,60 40,180" style="fill:yellow;stroke:yellow;stroke-width:1;"/>
+    </svg>
+    <script src="./lib/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+      L2Dwidget
+        .on('*', (name) => {
+          console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+        })
+        .init({
+          dialog: {
+            // 开启对话框
+            enable: true,
+            script: {
+              // 每空闲 10 秒钟，显示一条一言
+              'every idle 10s': '$hitokoto$',
+              // 当触摸到星星图案
+              'hover .star': '星星在天上而你在我心里 (*/ω＼*)',
+              // 当触摸到角色身体
+              'tap body': '哎呀！别碰我！',
+              // 当触摸到角色头部
+              'tap face': '人家已经不是小孩子了！'
+            }
+          }
+        });
+    </script>
+	<div class="kdui-header">
+		<div class="kdui-header-shadow"></div>
+	</div>
+
+	<div class="kdui-toolbox">
+		<ul>
+			<a href="https://jq.qq.com/?_wv=1027&k=5A27fgE"><li>加入交流群</li></a>
+			<a href="http://www.motstudio.top/netdisk"><li>填写白名单</li></a>
+		</ul>
+	</div>
+
+	<img src="static/img/mc.png" class="kdui-header-logo">
+
+	<div class="container my-5 text-center">
+		<img src="static/img/yns.png" class="kdui-middle-logo">
+	</div>
+	<div class="container pt-3 pt-lg-5">
+		<div class="kdui-panel text-black-50" data-scroll-reveal="enter from the top">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image: url('static/img/example/1.jfif');">YNS服务器已兼容1.16.1版本</div>
+					<div class="swiper-slide" style="background-image: url('static/img/example/2.jfif');">YNS服务器开始公测</div>
+					<div class="swiper-slide" style="background-image: url('static/img/example/3.jfif');">YNS服务器已与Motcraft，DRCBP服务器达成合作！</div>
+					<div class="swiper-slide" style="background-image: url('static/img/example/4.jfif');">YNS生存服务器欢迎您~插件改变生存</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+        <div class="container pt-3 pt-lg-5">
+<p style="text-align:center;color:#FFF0F5"><font size="5">我们的最新视频</font></p>
+		<div class="kdui-panel text-black-50" data-scroll-reveal="enter from the top">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<iframe src="//player.bilibili.com/player.html?aid=752814487&bvid=BV1qk4y1R7hZ&cid=181469490&page=1" scrolling="no" border="100" frameborder="no" framespacing="0" allowfullscreen="true" width="2080px" height="500px"> </iframe>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-3 mb-2">
+		<div class="row my-2">
+			<div class="col-12 col-md-4 col-lg-3 my-2" data-scroll-reveal="enter from the left">
+				<div class="kdui-panel">
+					<img src="static/img/example/s1.jpg" width="100%;">
+				</div>
+			</div>
+			<div class="col-12 col-md-8 col-lg-9 my-2" data-scroll-reveal="enter from the right">
+				<div class="kdui-panel p-3">
+					<h4 class="mb-4">YNS服务器的故事</h4>
+					<p class="kdui-paragraph">这个世界创建于2019年11月23日。我们以MaiguCraft的名义开服</p>
+					<p class="kdui-paragraph">最初，我们进行了宣传，效果甚微</p>
+					<p class="kdui-paragraph">经历了19年末逐渐黯淡的洗礼后</p>
+                                        <p class="kdui-paragraph">我们一直在探索，一直在追求</p>
+                                        <p class="kdui-paragraph">在2020年6月，我以新的名字，来重新进行我开服的意愿</p>
+                                        <p class="kdui-paragraph">新的名字，叫做YNS...</p>
+					<div class="text-right">
+						<a href="https://afdian.net/@Chinacommand" target="_blank"><button class="kdui-btn">为我们发电</button></a>						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+        <div class="row my-2">
+			<div class="col-12 col-md-8 col-lg-9 my-2" data-scroll-reveal="enter from the left">
+				<div class="kdui-panel p-3">
+					<h4 class="mb-4">关于YNS服务器</h4>
+					<p class="kdui-paragraph">YNS服务器开设于2019年11月23日，中文名叶楠衫，原名MaiguCraft</p>
+					<p class="kdui-paragraph">是一个基岩版少有的使用BDX依旧能维持到1.16服务器</p>
+					<p class="kdui-paragraph">YNS服务器于2020年6月更名，内部人员调动</p>
+					<a href="https://jq.qq.com/?_wv=1027&k=5ZMIm8X" target="_blank"><button class="kdui-btn">加入我们</button></a>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-lg-3 my-2" data-scroll-reveal="enter from the right">
+				<div class="kdui-panel">
+					<img src="static/img/example/s2.jpg" width="100%;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-3 mb-2">
+		<div class="row my-2">
+			<div class="col-12 col-md-4 col-lg-3 my-1" data-scroll-reveal="enter from the left">
+				<div class="kdui-panel">
+					<img src="static/img/example/Chinacommand.bmp" width="100%;">
+                                        <img src="static/img/example/qunae233.jpg" width="100%;">
+				</div>
+			</div>
+			<div class="col-12 col-md-8 col-lg-9 my-2" data-scroll-reveal="enter from the right">
+				<div class="kdui-panel p-3">
+					<h4 class="mb-4">YNS 核心成员</h4>
+					<p class="kdui-paragraph">昵称：Chinacommand</p>
+					<p class="kdui-paragraph">职位：方块社社长，DRC.MOT服腐竹</p>
+					<p class="kdui-paragraph">指引带头提建议都是他的功劳</p>
+                                        <p class="kdui-paragraph">上方该成员QQ头像</p>
+                                        <p class="kdui-paragraph">QQ号：2499902141 ↑ | QQ号：2193872640 ↓</p>
+                                        <p class="kdui-paragraph">昵称：zhengtianCN</p>
+                                        <p class="kdui-paragraph">职位：YNS服主</p>
+                                        <p class="kdui-paragraph">工具人，常常摸鱼，玩红石</p>
+                                        <p class="kdui-paragraph">下方该成员QQ头像</p>
+					<div class="text-right">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="kdui-alert py-3 px-4 my-2" data-scroll-reveal="enter from the bottom">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<div class="kdui-paragraph my-3">DRC是一个很好的服务器，从两个人四个建筑到今天的一座座高楼大厦密密麻麻，很不容易，腐竹也很乐意帮助大家，并且领先于大部分的同类服务器，这样的服务器已经不多了。 </div>
+					<div class="mt-3 d-flex">
+						<img class="rounded" src="static/img/example/Zhangwei.jpg" width="56px" height="56px">
+						<div class="ml-3">
+							<h4 class="mb-0">ZhangWeiPVP</h4>
+							<span class="text-white-50">DRC玩家</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="kdui-alert p-3 my-2" data-scroll-reveal="enter from the bottom after 0.3s">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<div class="kdui-paragraph my-3">当我第一次进入这个服务器的时候，就充满了期待，当屏幕加载结束之后出现了“完成！”时，则充满了激动的心情。我第一眼加入到游戏内时，就感到了十分地惊讶，这里的建筑十分地漂亮，你也可以在这里建造你想要的东西，十分的自由开放。 </div>
+					<div class="mt-3 d-flex">
+						<img class="rounded" src="static/img/example/wuzehan.jpg" width="56px" height="56px">
+						<div class="ml-3">
+							<h4 class="mb-0">wuzehan</h4>
+							<span class="text-white-50">DRC合作DMCS服主</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 d-md-none d-block d-lg-block">
+				<div class="kdui-alert p-3 my-2" data-scroll-reveal="enter from the bottom after 0.6s">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<div class="kdui-paragraph my-3">关于DRC服务器，我不想做出太好的评价，虽然这张地图和完整的交通系统给我们带来了欢乐，但是这个服务器唯一的缺点在于延迟，影响了游戏体验，希望以后改善</div>
+					<div class="mt-3 d-flex">
+						<img class="rounded" src="static/img/example/qunae233.jpg" width="56px" height="56px">
+						<div class="ml-3">
+							<h4 class="mb-0">qunae233</h4>
+							<span class="text-white-50">DRC副服主</span>
+						</div>
+					</div>
+				</div>
+			</div>
+                        <div class="col-12 col-md-6 col-lg-4 d-md-none d-block d-lg-block">
+				<div class="kdui-alert p-3 my-2" data-scroll-reveal="enter from the bottom after 0.6s">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<div class="kdui-paragraph my-3">DRC建筑服务器，入服虽然不久，但确是震撼。广袤的地图，大型的建筑，若是让我来的话，确实是造不出来。本是生存玩家，突然来到创造服务器，确实是有些不适应，在地图里闲逛，参观。确实，这样的地图，不知道需要多久的建设……分到自己的一块地，慢慢建设，平时也在地图闲逛，看着这个世界。有时候会遇到建筑大佬，有时候会看到服主上线建设，有空可以坐着地铁或者光速船到处逛逛。建筑服务器似乎也挺好的，不用想着怪物，不用想着食物和饱食度，只是创造自己想要的世界</div>
+					<div class="mt-3 d-flex">
+						<img class="rounded" src="static/img/example/sora.jpg" width="56px" height="56px">
+						<div class="ml-3">
+							<h4 class="mb-0">so ra in cloud</h4>
+							<span class="text-white-50">DRC玩家</span>
+						</div>
+					</div>
+				</div>
+			</div>
+                        <div class="col-12 col-md-6 col-lg-4 d-md-none d-block d-lg-block">
+				<div class="kdui-alert p-3 my-2" data-scroll-reveal="enter from the bottom after 0.6s">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<img src="static/img/star.svg" width="20px">
+					<div class="kdui-paragraph my-3">这个服务器很稀有，它是在这个熊服年代下少见的创造服务器，也不像其他的创造服务器一样没有规划，市中心有着四通八达的马路，优秀的地铁站和地铁，甚至还原了世界上的很多地标。但我最爱的还是地铁，它的设计绝对可以让很多人为之惊叹。</div>
+					<div class="mt-3 d-flex">
+						<img class="rounded" src="static/img/example/17.jpg" width="56px" height="56px">
+						<div class="ml-3">
+							<h4 class="mb-0">zer17VAN</h4>
+							<span class="text-white-50">DRC玩家</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="kdui-footer-grass"></div>
+	<div class="kdui-footer">
+		<div class="container pt-2 pb-4">
+			<div class="row">
+				<div class="col-6 col-sm-4 col-md-3">
+					<h5>相关链接</h5>
+					<ul class="list-unstyled ml-4">
+						<a href="https://space.bilibili.com/363763511" target="_blank"><li>我们的哔哩哔哩</li></a>
+						<a href="https://afdian.net/@chinacommand" target="_blank"><li>我们的爱发电</li></a>
+						<a href="https://www.acfun.cn/u/28726002" target="_blank"><li>我们的ACFUN</li></a>
+						<a href="https://user.youku.com/page/usc/index/?spm=a2hcb.12675304.uerCenter.5!6~5~5~A" target="_blank"><li>我们的优酷</li></a>
+						<a href="https://motstudio.icoc.me/" target="_blank"><li>motstudio官网</li></a>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<h5>友情链接</h5>
+					<ul class="list-unstyled ml-4">
+						<a href="http://www.2.maigucraft.top:280" target="_blank"><li>DRCBP服务器</li></a>
+						<a href="http://154.8.194.86" target="_blank"><li>DMCS服务器</li></a>
+						<a href="#" target="_blank"><li>######</li></a>
+						<a href="#" target="_blank"><li>######</li></a>
+					</ul>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 d-none d-sm-block">
+					<h5>关于我们</h5>
+					<div style="text-indent: 2em;"><small>暂无内容</small></div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 text-center d-none d-md-block">
+					<img class="kdui-footer-logo" src="static/img/logos/drc02.png">
+			</div>
+		</div>
+	</div>                     
+<div class="foot_power">
+                <h3>©2020 
+                    <a href="https://www.motstudio.top" title="Sxz" target="_blank"> DRC Build platform</a>
+            </div>
+        </foot>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+<audio autoplay="autoplay"><source src="
+" type="audio/mpeg" /></audio></script>
+</html>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src=""></iframe>				
+	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/swiper.min.js"></script>
+	<script src="static/js/scrollReveal.min.js?ver=0.2.0-rc.1"></script> 
+	<script>
+		var swiper = new Swiper('.swiper-container',{
+			loop: true,	
+			autoplay: true,
+			pagination: {
+				el: '.swiper-pagination',
+				bulletClass : 'kdui-page-nav',
+				bulletActiveClass: 'kdui-page-nav-act',
+			},
+		});
+	</script>
+	<script type="text/javascript">
+		(function($) {
+			'use strict';
+			window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
+		})();
+		
+		//data-scroll-reveal="enter from the bottom after 1s"
+	</script>
+</body>
+</html>
